@@ -52,3 +52,5 @@ Betas are functional, but not polished. Think passive flight or static tests, th
 Fully fledged releases are working and functional with little to no bugs(I'm kidding, no bugs is impossible). 
 
 There will be Alphas in between Betas and such, it is about the state of the software more than the lineage of release.
+
+Epsilons are special releases intent on experimental flight testing. I will not provide much more information outside of the code and what it's purpose is. Yes I used Epsilon because it's Greek, consistency baby 
