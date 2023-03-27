@@ -27,6 +27,7 @@ More to the elctronics bit, heres the Bill of Materials so far(this includes bas
 - 50uF Capacitor
 - 100uF Capacitor
 - ESCs, with BEC 5v at 5A is recommended
+- **Minimum** 4ch reciever(Rx). SBUS is not currently supported. 
 - Probably LEDs of some sort, a more accurate list will follow later.
 
 ### Are you even qualified? Who even are you?
@@ -38,3 +39,16 @@ I am in High School and pursuing a career path in Aerospace Engineering or Compu
 
 ### What pace are you going at? How soon will this be ready to fly?
 Ideally first static tests of the stability system by mid-April 2023. Passive carry by early to mid April as well. I will know more by then.
+
+There is not any specific pace at all, but the sooner it is up the sooner I'm happy. Ideally by mid to late May I'd like to have the first major release.
+
+### What the h*ck is this release system???
+Alphas, Betas, and releases.
+
+Alphas are incredibly minor bug fixes and are often majorly borked. I will sometimes use this just to save the project for a second so I can work on it elsewhere.
+
+Betas are functional, but not polished. Think passive flight or static tests, these will be betas. 
+
+Fully fledged releases are working and functional with little to no bugs(I'm kidding, no bugs is impossible). 
+
+There will be Alphas in between Betas and such, it is about the state of the software more than the lineage of release.
