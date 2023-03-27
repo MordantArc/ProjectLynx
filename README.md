@@ -1,12 +1,14 @@
-# Project Lynx
+# Project SnowLynx
 FAQ is below, enjoy your stay :)
+
+![projectSnowLynx](https://user-images.githubusercontent.com/116419257/227973320-b3a2791e-301d-4b3c-b59a-4fc27b6c77a0.jpg)
 
 
 # FAQ
-### What is Project Lynx?
-Project Lynx(PL) is currently a Raspberry Pi Pico based Flight Control system aimed to provide modes for 3-axis stabilization, data logging, flight control surface blending, and more.
+### What is Project SnowLynx?
+Project SnowLynx(PSL) is currently a Raspberry Pi Pico based Flight Control system aimed to provide modes for 3-axis stabilization, data logging, flight control surface blending, and more.
 
-### Why Project Lynx? Why not commercially available 3-axis gyros?
+### Why Project SnowLynx? Why not commercially available 3-axis gyros?
 Well, for one, why not?
 
 I got bored in my Latin Class, and started browsing options for R/C Aircraft systems. I found many were available, only at steep prices(or for more affordable options, like the Omnibus F4, no stock).
