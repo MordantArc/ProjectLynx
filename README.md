@@ -45,7 +45,7 @@ There is not any specific pace at all, but the sooner it is up the sooner I'm ha
 ### What the h*ck is this release system???
 Alphas, Betas, and releases.
 
-Alphas are incredibly minor bug fixes and are often majorly borked. I will sometimes use this just to save the project for a second so I can work on it elsewhere.
+Alphas are incredibly minor bug fixes and/or software building and are often majorly borked. I will sometimes use this just to save the project for a second so I can work on it elsewhere.
 
 Betas are functional, but not polished. Think passive flight or static tests, these will be betas. 
 
