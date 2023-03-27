@@ -54,3 +54,7 @@ Fully fledged releases are working and functional with little to no bugs(I'm kid
 There will be Alphas in between Betas and such, it is about the state of the software more than the lineage of release.
 
 Epsilons are special releases intent on experimental flight testing. I will not provide much more information outside of the code and what it's purpose is. Yes I used Epsilon because it's Greek, consistency baby 
+
+Versions will be notated with "Stable" if I deem them functional enough. This mostly applies to Betas as Alphas will almost never get to this point and full releases are inherently Stable.
+
+Betas have requirements that must be met before the Beta is released. This may include polishing, optimization, or functions. Alphas have no requirements.
