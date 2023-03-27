@@ -47,7 +47,7 @@ Alphas, Betas, and releases.
 
 Alphas are incredibly minor bug fixes and/or software building and are often majorly borked. I will sometimes use this just to save the project for a second so I can work on it elsewhere.
 
-Betas are functional, but not polished. Think passive flight or static tests, these will be betas. 
+Betas are functional, but not polished. Think passive flight or static tests, these will be Betas. 
 
 Fully fledged releases are working and functional with little to no bugs(I'm kidding, no bugs is impossible). 
 
@@ -57,4 +57,4 @@ Epsilons are special releases intent on experimental flight testing. I will not 
 
 Versions will be notated with "Stable" if I deem them functional enough. This mostly applies to Betas as Alphas will almost never get to this point and full releases are inherently Stable.
 
-Betas have requirements that must be met before the Beta is released. This may include polishing, optimization, or functions. Alphas have no requirements.
+Betas and Releases have requirements that must be met before the Beta is released. This may include polishing, optimization, or functions. Alphas have no requirements.
