@@ -8,7 +8,7 @@ FAQ is below, enjoy your stay :)
 ### What is Project SnowLynx?
 Project SnowLynx(PSL) is currently a Raspberry Pi Pico based Flight Control system aimed to provide modes for 3-axis stabilization, data logging, flight control surface blending, and more.
 
-### Why Project SnowLynx? Why not commercially available 3-axis gyros?
+### Why Project SnowLynx? Why are you not commercially available 3-axis gyros?
 Well, for one, why not?
 
 I got bored in my Latin Class, and started browsing options for R/C Aircraft systems. I found many were available, only at steep prices(or for more affordable options, like the Omnibus F4, no stock).
@@ -58,3 +58,6 @@ Epsilons are special releases intent on experimental flight testing. I will not 
 Versions will be notated with "Stable" if I deem them functional enough. This mostly applies to Betas as Alphas will almost never get to this point and full releases are inherently Stable.
 
 Betas and Releases have requirements that must be met before the Beta is released. This may include polishing, optimization, or functions. Alphas have no requirements.
+
+## Other things to mention
+I honestly have no idea why I'm putting this on GitHub, but it's code and it's a code website. It's not illegal, just 99% pointless. 
