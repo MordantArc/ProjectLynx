@@ -17,6 +17,7 @@ I'm a maker, why not make it myself? And so I will! The ability to specifically 
 
 ### What does this require?
 I don't know why you would want to follow me off a cliff here, but if so, heres the deal:
+
 Electronics, soldering iron, all that, but most importantly:
 ***Time.***
 
