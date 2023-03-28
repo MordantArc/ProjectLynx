@@ -11,11 +11,12 @@ Project SnowLynx(PSL) is currently a Raspberry Pi Pico based Flight Control syst
 ### Why Project SnowLynx? Why are you not commercially available 3-axis gyros?
 Well, for one, why not?
 
-I got bored in my Latin Class, and started browsing options for R/C Aircraft systems. I found many were available, only at steep prices(or for more affordable options, like the Omnibus F4, no stock).
+I got bored in my Latin Class, and started browsing options for R/C Aircraft systems. I found many were available, only at steep prices(or in other cases with affordable options, like the Omnibus F4, theres no stock).
 	
 I'm a maker, why not make it myself? And so I will! The ability to specifically tailor this FCS to my aircraft and model the FCS to operate it as best as it can is something only custom projects could provide. Consumer Flight Controllers are great, and certainly don't let me discourage you from buying one(<sub>as if I was discouraging anyone to begin with</sub>). This is simply a project to build my skills as a budding Aerospace Engineer and make my R/C aircraft the best aircraft available.
 
 ### What does this require?
+I don't know why you would want to follow me off a cliff here, but if so, heres the deal:
 Electronics, soldering iron, all that, but most importantly:
 ***Time.***
 
