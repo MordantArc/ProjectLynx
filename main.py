@@ -80,11 +80,16 @@ def end_connections():
             x.off()
         except AttributeError:
             pass
+        
+def get_next_state(cur):
+    next = list_of_states[1+list_of_states.index(cur)]
+    return next
 
 if __name__ == '__main__':
     while True:
         if master_state == 'START':
             start_func()
+            master_state=get_next_state('START')
         """
         #Base State example
         if master_state == '99':
