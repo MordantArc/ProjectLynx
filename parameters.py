@@ -31,6 +31,6 @@ servo_max_lims = 8000
 
 list_of_states=[
     'START',
-    'PASSTHROUGH',
+    #'PASSTHROUGH',
     'STOP'
 ]
