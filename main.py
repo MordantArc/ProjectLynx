@@ -8,7 +8,13 @@ import os
 [][]
 """
 
+#IMPORTANT! SITL MUST BE OFF BEFORE FLIGHT!
+sitl = False
+
+
 tickRate = 10 #hertz. How many times per second a dataset is logged.
+
+master_state='START'
 
 active_pins = []
 active_servos = []
@@ -46,10 +52,10 @@ def start_func():
         tmp2.duty_u16(get_pwm(0)) # middle
         terminal('\n\nStart Functions Complete.')
 
-def data_frequency_return_rate_test(length_hz):
-    length_hz = round(1/length_hz,9)
-    length_ms = int(round(length_hz*1000,0))
-    length_us = int(round(length_hz*1000000,0))
+def data_frequency_return_rate_test(length):
+    length = round(1/length,9)
+    length_ms = int(round(length*1000,0))
+    length_us = int(round(length*1000000,0))
 
     terminal('\n\nINIT DATA FREQUENCY TEST MILLISECONDS\n')
     t=time.ticks_ms()
@@ -76,22 +82,14 @@ def end_connections():
             pass
 
 if __name__ == '__main__':
-    start_func()
-
-    if silent != True:
-        for _ in range(2):
-            tic(buzzer)
-            time.sleep(0.05)
-            tic(buzzer)
-            time.sleep(3)
-
-    data_frequency_return_rate_test(100)
-
-    for y in range(-100,100,1):
-        for x in active_servos:
-            x.duty_u16(get_pwm(y))
-            time.sleep(0.01)
-    
-
-    end_connections()
-    print('\n---\nEoF\n---\n')
+    while True:
+        if master_state == 'START':
+            start_func()
+        """
+        #Base State example
+        if master_state == '99':
+            do_stuff()
+        """
+        if master_state == 'STOP':
+            end_connections()
+            print('\n---\nEoF\n---\n')

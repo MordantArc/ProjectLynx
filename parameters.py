@@ -28,3 +28,9 @@ u16 = 65535
 
 servo_throw = 4000
 servo_max_lims = 8000
+
+list_of_states=[
+    'START',
+    'PASSTHROUGH',
+    'STOP'
+]
